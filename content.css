@@ -1,0 +1,37 @@
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+header{
+    background-color: #2D4356;
+    color: whitesmoke;
+    text-align: center;
+    padding: 50;
+}
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h2 {
+    align: center;
+    margin-top: 50;
+}
+
+input[type="text"], textarea, input[type="file"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color:rgb(74, 99, 92);
+    color: rgb(164, 251, 34);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
