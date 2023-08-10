@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Content Management Tool</title>
+        <link rel="stylesheet" href="content.css">
+    </head>
+    <body>
+        <header>
+            <h1><b><u>Content Management Tool</u></b></h1>
+        </header>
+        <main>
+            <section id="content-area">
+                <h2><u>Add Text</u></h2>
+                <input type="text" id="heading" placeholder="Enter Title">
+                <textarea id="writecontent" placeholder="Content"></textarea>
+                <input type="file" id="picture" accept="image/*">
+                <input type="file" id="video" accept="video/*">
+                <button id="add-content">Add</button>
+            </section>
+            <section id="content-written">
+                <h2><u>YOUR BLOG:-</u></h2>
+                <ul id="content-items"></ul>
+            </section>
+        </main>
+        <script src="content.js"></script>
+    </body>
+</html>
